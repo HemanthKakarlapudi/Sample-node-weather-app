@@ -1,2 +1,7 @@
-# Sample-node-weather-app
-Sample weather application to test the public api's
+First, install our packages...
+
+$ npm install
+
+Then to start server...
+
+$ node server.js
