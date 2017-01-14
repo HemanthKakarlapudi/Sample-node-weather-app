@@ -2,6 +2,10 @@ First, install our packages...
 
 $ npm install
 
+First, install dev dependencies...
+
+$ bower install
+
 Then to start server...
 
 $ node server.js
