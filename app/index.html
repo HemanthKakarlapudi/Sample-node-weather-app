@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Weather Application</title>
+    <!-- Guide 3.0 CSS -->
+    <!-- External 3d party libs -->
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+    <script src="lib/angular-mocks/angular-mocks.js"></script>
+    <script src="lib/angular-scenario/angular-scenario.js"></script>
+    <script src="lib/angular-sanitize/angular-sanitize.min.js" charset="UTF-8"></script>
+    <script src="lib//angular-ui-router/release/angular-ui-router.min.js" charset="UTF-8"></script>
+    <!-- App specific libs-->
+    <script src="js/weatherApp.module.js"></script>
+    <script src="js/controllers/weatherCtrl.js"></script>
+  
+</head>
+
+<body ng-app="weatherApp">
+    <div ng-cloak ui-view=""></div>
+</body>
+
+</html>
